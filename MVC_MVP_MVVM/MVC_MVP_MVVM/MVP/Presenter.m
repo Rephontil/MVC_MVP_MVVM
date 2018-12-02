@@ -13,7 +13,6 @@
 #define SCREEN_WIDTH  ([UIScreen mainScreen].bounds.size.width)
 
 @interface Presenter ()<MVP_ViewDelegate>
-
 @property (nonatomic, weak) UIViewController *controller;
 @end
 
